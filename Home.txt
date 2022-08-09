@@ -1,0 +1,466 @@
+<!Doctype html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>InfoNote - a helping hand for beginners</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body bgcolor="white">
+<section class="header">
+    <nav>
+        <a href="Home.html"><img src="C:\Users\Asus\Downloads\Group 61\images\logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>InfoNote</h1>
+    <p>A helpping hand for the beginners in Computer science programing </p>
+    <a href="" class="hero-btn">Visit Us To know More</a>
+</div>
+
+</section>
+
+<!------ HTML tags ------->
+
+<section class="tags">
+    <h1 style="color:black\">HTML tags</h1>
+    <p style="color:black">Learn , Apply , Be patient , 100% sucess</p>
+    <p><a href="#t1">head tag</a></p>
+    <p><a href="#t2">body tag</a></p>
+    <p><a href="#t3">p tag</a></p>
+    <p><a href="#t4">ol tag</a></p>
+    <p><a href="#t5">li tag</a></p>
+    <p><a href="#t6">ul tag</a></p>
+    <p><a href="#t7">b tag</a></p>
+    <p><a href="#t8">br tag</a></p>
+    <p><a href="#t9">small tag</a></p>
+    <p><a href="#t10">big tag</a></p>
+    <p><a href="#t11">s tag</a></p>
+    <p><a href="#t12">del tag</a></p>
+    <p><a href="#t13">mark tag</a></p>
+    <p><a href="#t14">sub AND sup tags</a></p>
+    <p><a href="#t15">style tag</a></p>
+    <p><a href="#t16">table tag</a></p>
+    <p>Centered inside a form with max-width:</p>
+    <form class="example" action="devanshchauhan419@gmail.com" style="margin:auto;max-width:300px">
+        <input type="text" placeholder="Search.." name="search2">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+    <div class="row">
+        <div class="course-col">
+            <h3 id="t1"> head : </h3>
+            <p style="color: black">
+            The head element is a container for metadata (data about data) and is placed between the html tag and the body tag.<br>
+            Metadata is data about the HTML document. Metadata is not displayed.<br>
+            Metadata typically define the document title, character set, styles, scripts, and other meta information.
+            </p>
+            <h4><i>Example</i> : </h4>
+            <xmp>
+            <html>
+            <head>
+            <title>Title of the document</title>
+            </head>
+            </html>
+            </xmp>
+        </div>
+        <div class="course-col">
+            <h3 id="t2"> body : </h3>
+            <p style="color: black">
+            The <body> tag defines the document's body.<br>
+            The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+            </p>
+            <h4><i>Example</i> : </h4>
+            <xmp>
+            <html>
+            <head>
+            <title>Title of the document</title>
+            </head>
+            <body>
+            <h1>This is a heading</h1>
+            <p>This is a paragraph.</p>
+            </body>
+            </html>
+            </xmp>
+            <p><a target="_blank" href=" https://onecompiler.com/html/3xjcycgq3">Output</a></p>
+         </div>
+        <div class="course-col">
+            <h3 id="t3"> p : </h3>
+            <p style="color: black">
+            The p tag defines a paragraph.<br>
+            Browsers automatically add a single blank line before and after each p element.
+            </p>
+            <h4><i>Example</i> : </h4>
+            <xmp>
+            <html>
+            <body>
+            <h1>The p element</h1>
+            <p>This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href="https://onecompiler.com/html/3xjd9t48d">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h3 id="t4"> ol : </h3>
+            <p style="color: black">
+            The ol tag defines an ordered list. An ordered list can be numerical or alphabetical.<br>
+            The li tag is used to define each list item.
+            </p>
+            <h4><i>Example</i> : </h4>
+            <xmp>
+            <html>
+            <body>
+            <h1>The ol element</h1>
+            <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+            </ol>
+            <ol start="50">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+            </ol>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjd9xnck">Output</a></p>
+            <hr>
+        </div>
+        <div class="course-col">
+            <h1 id="t5"> li : </h1>
+            <p style="color: black">
+            The li tag defines a list item.
+            The li tag is used inside ordered lists(ol), unordered lists (ul), and in menu lists (menu).
+            <br> In ul and menu, the list items will usually be displayed with bullet points.
+            In ol, the list items will usually be displayed with numbers or letters.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>The ol and ul elements</h1>
+            <p>The ol element defines an ordered list:</p>
+            <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+            </ol>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjda3fc4">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t6"> ul : </h1>
+            <p style="color: black">
+            The ul tag defines an unordered (bulleted) list.
+            Use the ul tag together with the li tag to create unordered lists.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>The ul element</h1>
+            <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+            </ul>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjda4s27">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t7"> b : </h1>
+            <p style="color: black">
+            The b tag specifies bold text without any extra importance.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>The b element</h1>
+            <p>This is normal text - <b>and this is bold text</b>.</p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjda6cdv">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t8"> br : </h1>
+            <p style="color: black">
+            The br tag inserts a single line break.
+            The br tag is an empty tag which means that it has no end tag.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>The br element</h1>
+            <p>
+            To force<br> line breaks<br> in a text,<br> use the br<br> element.
+            </p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjda9mbu">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t9"> small : </h1>
+            <p style="color: black">
+            The small tag defines smaller text.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>The small element</h1>
+            <p>This is some normal text.</p>
+            <p><small>This is some smaller text.</small></p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjdab4rk">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t10"> big : </h1>
+            <p style="color: black">
+            The big tag in HTML is used to increase the selected text size by one larger than the surrounding text
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>The big element</h1>
+            <p>This is some normal text.</p>
+            <p><big>This is some bigger text.</big></p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjdacu6q">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t11"> s : </h1>
+            <p style="color: black">
+            The s tag specifies text that is no longer correct, accurate or relevant. <br>The text will be displayed with a line through it.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>Dettol soap</h1>
+            <p><s>Rs. 95/-</s></p>
+            <p><big>Rs. 85/-</big></p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjdaesgx">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t12"> del : </h1>
+            <p style="color: black">
+            The del tag defines text that has been deleted from a document. <br>Browsers will usually strike a line through deleted text.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>The del element</h1>
+            <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjdagyum">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t13"> mark : </h1>
+            <p style="color: black">
+            The mark tag defines text that should be marked or highlighted.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <h1>The mark element</h1>
+            <p>Do not forget to buy <mark>milk</mark> today.</p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjdajjmp">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t14"> sub(subscript) AND sup(superscript) : </h1>
+            <p style="color: black">
+            The HTML sub element defines subscript text. <br>
+            Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. <br>
+            <b>AND</b>
+            <br>The HTML sup element defines superscript text. 
+            </br>Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. 
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <p>
+            The chemical formula of water is H<sub>2</sub>O.
+            <br><b>AND</b><br>
+            4<sup>2</sup> = 16.
+            </p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjdamdvv">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t15"> style : </h1>
+            <p style="color: black">
+            The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <body>
+            <p>I am normal</p>
+            <p style="color:red;">I am red</p>
+            <p style="color:blue;">I am blue</p>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjdanweq">Output</a></p>
+        </div>
+        <div class="course-col">
+            <h1 id="t16">table : </h1>
+            <p style="color: black">
+            The table tag defines an HTML table.<br>An HTML table consists of one table element and one or more tr, th, and td elements.<br>
+            The tr element defines a table row, the th element defines a table header, and the td element defines a table cell.
+            </p>
+            <h2><i>Example</i> : </h2>
+            <xmp>
+            <html>
+            <head>
+            <title>HTML table Tag</title>
+            </head>
+            <body>
+                <table border = "1">
+                    <tr>
+                        <th>Team</th>
+                        <th>Ranking</th>
+                    </tr>
+                    <tr>
+                        <td>India</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>South Africa</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Australia</td>
+                        <td>3</td>
+                    </tr>
+            </table>
+            </body>
+            </html>
+            </xmp>
+            <p><a  target="_blank" href=" https://onecompiler.com/html/3xjdaqmn9">Output</a></p>
+         </div>
+    </div>
+</section>
+
+<!-------- Testimonials -------->
+
+<section class="testimonials">
+    <h1 style="color:black">What our Users say</h1>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="C:\Users\Asus\Downloads\Group 61\images\user1.jpg">
+            <div>
+                <p style="color: black">Information was right and very <br>
+                    Examples were quite easy to understand the 
+                    working of code.</p>
+                <h3>Karan Jain</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="C:\Users\Asus\Downloads\Group 61\images\user2.jpg">
+            <div>
+                <h3>Fatima Ali Khan/h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="centere">
+        <form target="_blank" action="devanshchauhan419@gmail.com" method="post">
+            <label for="fname">Was the above information usefull :</label><br>
+            <label type="text">Yes</label>
+			<input type="checkbox"><br>
+			<label type="text">No</label>
+			<input type="checkbox"><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </div>
+</section>
+
+<!------ Footer -------->
+
+<section class="footer">
+    <h4 style="color:black">About Us</h4>
+    <p style="color: black">We help the beginners to enhance their 
+        programming skills in <br>HTML,CSS,C++,Python and other 
+        programming languages.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p style="color: black">Made with <i class="fa fa-heart-o"></i> by Team 61</p>
+</section>
+
+    
+
+<!--------Javascript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementaryId("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

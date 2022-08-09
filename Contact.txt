@@ -1,0 +1,102 @@
+<!Doctype html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Home.html"><img src="C:\Users\Asus\Downloads\Group 61\images\logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Xyz Road, Abc building</h5>
+                    <p style="color: black">Bhopal, Madhya Pradesh</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 9114565781</h5>
+                    <p style="color: black">Monday - Saturday , 10:00am to 06:00pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>devanshchauhan419@gmail.com</h5>
+                    <p style="color: black">Email us your query</p>
+                </span>
+            </div>
+        </div>
+<div class="contact-col">
+            
+    <form action="mailto:devanshchauhan419@gmail.com" method="post">
+        <input type="text" placeholder="Enter your name" required>
+        <input type="email" placeholder="Enter Email Address" required>
+        <input type="text" placeholder="Enter your subject" required>
+        <textarea rows="8" placeholder="Message" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+    </form>
+</div>
+    </div>
+
+</section>
+
+<!------ Footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p style="color: black">We help the beginners to enhance their 
+        programming skills in <br>HTML,CSS,C++,Python and other 
+        programming languages.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p style="color: black">Made with <i class="fa fa-heart-o"></i> by Devansh Chauhan</p>
+</section>
+
+    
+
+<!--------Javascript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementaryId("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

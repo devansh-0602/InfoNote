@@ -1,0 +1,150 @@
+<!Doctype html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Home.html"><img src="C:\Users\Asus\Downloads\Group 61\images\logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs For 2021</h1>
+</section>
+
+<!----------- blog page content ------>
+
+<section class="blog-content">
+     <div class="blog-left">
+            <img src="C:\Users\Asus\Downloads\Group 61\images\Certificate.jpg">
+             <h2>Our Certificate & Online Programs For 2021</h2>
+             <p>InfoNote is an online free content website which is quick 
+                responsive and easy to access created to gain knowledge which could help them change the world. 
+                <br>InfoNote help the people of any generation to gain or enhance their skills or knowledge about programming.
+                InfoNote also gives the user a section where they can suggest if any changes need to be
+                </p>
+             <br>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+             Pellentesque aliquet turpis nulla, eleifend faucibus 
+             est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus 
+             purus. Donec sit amet nisl non justo malesuda fermentum. Donec
+             eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus.
+             Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis
+             finibus nibh luctus mattis. Vivamus diam turpis, pellentesque vel
+             magna sit amet, sollicitudin efficitur tortor. Etiam ornare lacinia
+             iaculis.</p>
+             <br>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+             Pellentesque aliquet turpis nulla, eleifend faucibus 
+             est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus 
+             purus. Donec sit amet nisl non justo malesuda fermentum. Donec
+             eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus.
+             Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis
+             finibus nibh luctus mattis.</p>
+             <br>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+             Pellentesque aliquet turpis nulla, eleifend faucibus 
+             est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus 
+             purus. Donec sit amet nisl non justo malesuda fermentum. Donec
+             eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus.
+             Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis
+             finibus nibh luctus mattis.</p>
+
+             <div class="comment-box">
+
+                 <h3>Leave a comment</h3>
+
+                 <form class="comment-form">
+                     <input type="text" placeholder="Enter Name">
+                     <input type="email" placeholder="Enter Email">
+                     <textarea rows="5" placeholder="Your comment">
+                     </textarea>
+                     <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                 </form>
+             </div>
+
+
+
+         </div>
+         <div class="blog-right">
+             <h3>Post Categories</h3>
+             <div>
+                 <span>C++</span>
+                 <span>21</span>
+             </div>
+             <div>
+                 <span>CSS</span>
+                 <span>28</span>
+             </div>
+             <div>
+                 <span>Python</span>
+                 <span>15</span>
+             </div>
+             <div>
+                 <span>Data bsse</span>
+                 <span>34</span>
+             </div>
+             <div>
+                 <span>AutoCAD</span>
+                 <span>42</span>
+             </div>
+             <div>
+                 <span>Creative Writing</span>
+                 <span>22</span>
+             </div>
+             <div>
+                 <span>DSA</span>
+                 <span>30</span>
+             </div>      
+         </div>
+    </div>
+
+
+<!------ Footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p style="color: black">We help the beginners to enhance their 
+        programming skills in <br>HTML,CSS,C++,Python and other 
+        programming languages.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p style="color: black">Made with <i class="fa fa-heart-o"></i> by Team 61</p>
+</section>
+
+    
+
+<!--------Javascript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementaryId("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
